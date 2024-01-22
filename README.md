@@ -51,5 +51,8 @@ Now you are ready, to start the script:
 ```shell
 node app.js
 ```
+<br>
+
+![Wooorking](https://media.giphy.com/media/lDHAq5Drj9CqFRzGkp/giphy.gif)
 
 Make sure you have enough storge, otherwise your disk will get full :)  
