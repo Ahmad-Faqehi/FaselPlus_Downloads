@@ -37,7 +37,8 @@ async function featch_links() {
     const regex = "document[_0x00dd('0x3')](decodeURIComponent(escape("+var_name+")));";
     const result =  scriptTagContent.replace(regex,'var plain = '+var_name);
     eval(result);
-    const $ = cheerio.load(plain)
+    // const $ = cheerio.load(plain)
+    const $ = cheerio.load(obj)
     const firstMp4Link = $('.qlt-item:first-child a').attr('href');
     nextUrl = "https://www.faselplus.com"+$('.playlist-left a').attr('href');
 
